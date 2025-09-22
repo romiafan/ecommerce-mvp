@@ -1,0 +1,10 @@
+{
+  "extends": ["next/core-web-vitals", "prettier"],
+  "rules": {
+    "@next/next/no-html-link-for-pages": "off",
+    "react/jsx-key": "error",
+    "react/jsx-no-target-blank": "error",
+    "prefer-const": "error",
+    "no-var": "error"
+  }
+}

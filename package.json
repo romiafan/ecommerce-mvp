@@ -1,0 +1,66 @@
+{
+  "name": "ecommerce-mvp",
+  "version": "1.0.0",
+  "description": "Complete e-commerce MVP with Next.js 14, Convex, JWT auth, and Midtrans payment gateway",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@8.15.0",
+  "author": "romiafan",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:romiafan/ecommerce-mvp.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "nextjs",
+    "convex",
+    "jwt",
+    "midtrans",
+    "typescript",
+    "tailwindcss",
+    "turbo",
+    "monorepo"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=@ecommerce/web",
+    "build": "turbo run build",
+    "build:web": "turbo run build --filter=@ecommerce/web",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "type-check": "turbo run type-check",
+    "clean": "turbo run clean",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "convex:dev": "convex dev",
+    "convex:deploy": "convex deploy",
+    "seed": "convex run convex/seed.ts:seedAll",
+    "db:clear": "convex run convex/seed.ts:clearAll",
+    "deploy": "pnpm run build && vercel --prod"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.36.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^24.5.2",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "convex": "^1.27.1",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "15.5.3",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "dependencies": {
+    "next": "^15.5.3"
+  }
+}
