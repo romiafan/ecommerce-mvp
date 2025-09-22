@@ -552,9 +552,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support
 
 - **Documentation**: [docs/](./docs/)
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Discord**: [Join our community](https://discord.gg/your-server)
-- **Email**: support@yourdomain.com
+- **Issues**: [GitHub Issues](https://github.com/romiafan/issues)
+- **Email**: romiafan@gmail.com
 
 ## 🎯 Roadmap
 
@@ -569,6 +568,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ by the E-commerce Team**
+**Built with ❤️ by romiafan**
 
 Ready to launch your e-commerce business? Get started in minutes with this production-ready template!
