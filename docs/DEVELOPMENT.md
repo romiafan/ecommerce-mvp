@@ -41,7 +41,7 @@ JWT_SECRET=your-super-secure-jwt-secret-key-minimum-256-bits
 
 # Midtrans Payment Gateway
 MIDTRANS_SERVER_KEY=your-midtrans-server-key
-MIDTRANS_CLIENT_KEY=your-midtrans-client-key
+NEXT_PUBLIC_MIDTRANS_CLIENT_KEY=your-midtrans-client-key
 MIDTRANS_IS_PRODUCTION=false
 
 # App Configuration
@@ -402,7 +402,7 @@ JWT_SECRET=your-production-jwt-secret-minimum-256-bits
 
 # Production Midtrans
 MIDTRANS_SERVER_KEY=your-production-server-key
-MIDTRANS_CLIENT_KEY=your-production-client-key
+NEXT_PUBLIC_MIDTRANS_CLIENT_KEY=your-production-client-key
 MIDTRANS_IS_PRODUCTION=true
 
 # Production URL
@@ -458,7 +458,7 @@ curl -X POST http://localhost:3000/api/auth/register \
 ```bash
 # Check Midtrans configuration
 echo $MIDTRANS_SERVER_KEY
-echo $MIDTRANS_CLIENT_KEY
+echo $NEXT_PUBLIC_MIDTRANS_CLIENT_KEY
 echo $MIDTRANS_IS_PRODUCTION
 
 # Test payment creation endpoint
